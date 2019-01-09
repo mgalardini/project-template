@@ -5,9 +5,10 @@
 # coding: utf-8
 
 
-def get_options():
-    import argparse
+import argparse
 
+
+def get_options():
     description = ''
     parser = argparse.ArgumentParser(description=description)
 
